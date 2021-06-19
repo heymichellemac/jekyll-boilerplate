@@ -1,0 +1,8 @@
+title: Jekyll Boilerplate Project
+description: Boilerplate project
+
+
+plugins:
+  - jekyll-seo-tag
+
+

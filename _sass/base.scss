@@ -1,0 +1,29 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--background-color);
+  color: var(--text-color);
+
+  a {
+    color: var(--link-color);
+    
+    &:hover {
+      text-decoration: underline;
+      filter: brightness(80%);
+    }
+  }
+}
+
+.d-none {
+  display: none !important;
+}
